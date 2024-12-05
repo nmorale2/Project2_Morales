@@ -1,0 +1,14 @@
+ExampleMachine
+q0,q1,q2,qaccept,qreject
+0,1
+0,1,_
+q0
+qaccept
+
+q0,0,q1,1,R
+q0,1,qreject,_,R
+q1,0,q2,_,R
+q1,1,qaccept,1,R
+q1,_,qreject,_,R
+q2,0,qaccept,_,R
+q2,1,qreject,_,R

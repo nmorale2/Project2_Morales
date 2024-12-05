@@ -1,0 +1,399 @@
+Simulating machine: ExampleMachine
+Input: 000 - String accepted in 3 steps!
+Step 0: (q0)000_
+Step 1: 1(q1)00_
+Step 2: 1_(q2)0_
+Step 3: 1__(qaccept)_
+----------------------------------------
+Input: 001 - Execution stopped after 4 steps. String rejected.
+----------------------------------------
+Input: 010 - String accepted in 2 steps!
+Step 0: (q0)010_
+Step 1: 1(q1)10_
+Step 2: 11(qaccept)0_
+----------------------------------------
+Input: 011 - String accepted in 2 steps!
+Step 0: (q0)011_
+Step 1: 1(q1)11_
+Step 2: 11(qaccept)1_
+----------------------------------------
+Input: 100 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 101 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 110 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 111 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: _ - Execution stopped after 1 steps. String rejected.
+----------------------------------------
+Input: 00 - Execution stopped after 3 steps. String rejected.
+----------------------------------------
+Input: 11 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 01 - String accepted in 2 steps!
+Step 0: (q0)01_
+Step 1: 1(q1)1_
+Step 2: 11(qaccept)_
+----------------------------------------
+Input: 10 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: _ - Execution stopped after 1 steps. String rejected.
+----------------------------------------
+Input: 0000 - String accepted in 3 steps!
+Step 0: (q0)0000_
+Step 1: 1(q1)000_
+Step 2: 1_(q2)00_
+Step 3: 1__(qaccept)0_
+----------------------------------------
+Input: 1111 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1100 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1010 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0101 - String accepted in 2 steps!
+Step 0: (q0)0101_
+Step 1: 1(q1)101_
+Step 2: 11(qaccept)01_
+----------------------------------------
+Input: 0110 - String accepted in 2 steps!
+Step 0: (q0)0110_
+Step 1: 1(q1)110_
+Step 2: 11(qaccept)10_
+----------------------------------------
+Input: 0001 - String accepted in 3 steps!
+Step 0: (q0)0001_
+Step 1: 1(q1)001_
+Step 2: 1_(q2)01_
+Step 3: 1__(qaccept)1_
+----------------------------------------
+Input: 0010 - Execution stopped after 4 steps. String rejected.
+----------------------------------------
+Input: 1000 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1110 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1101 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1011 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0111 - String accepted in 2 steps!
+Step 0: (q0)0111_
+Step 1: 1(q1)111_
+Step 2: 11(qaccept)11_
+----------------------------------------
+Input: 0011 - Execution stopped after 4 steps. String rejected.
+----------------------------------------
+Input: 11111 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 00000 - String accepted in 3 steps!
+Step 0: (q0)00000_
+Step 1: 1(q1)0000_
+Step 2: 1_(q2)000_
+Step 3: 1__(qaccept)00_
+----------------------------------------
+Input: 10101 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 01010 - String accepted in 2 steps!
+Step 0: (q0)01010_
+Step 1: 1(q1)1010_
+Step 2: 11(qaccept)010_
+----------------------------------------
+Input: 11100 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 00011 - String accepted in 3 steps!
+Step 0: (q0)00011_
+Step 1: 1(q1)0011_
+Step 2: 1_(q2)011_
+Step 3: 1__(qaccept)11_
+----------------------------------------
+Input: 10110 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 01101 - String accepted in 2 steps!
+Step 0: (q0)01101_
+Step 1: 1(q1)1101_
+Step 2: 11(qaccept)101_
+----------------------------------------
+Input: 11011 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 00101 - Execution stopped after 4 steps. String rejected.
+----------------------------------------
+Input: 10001 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 01110 - String accepted in 2 steps!
+Step 0: (q0)01110_
+Step 1: 1(q1)1110_
+Step 2: 11(qaccept)110_
+----------------------------------------
+Input: 11000 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 00010 - String accepted in 3 steps!
+Step 0: (q0)00010_
+Step 1: 1(q1)0010_
+Step 2: 1_(q2)010_
+Step 3: 1__(qaccept)10_
+----------------------------------------
+Input: 11101 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 10010 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 10111 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 01001 - String accepted in 2 steps!
+Step 0: (q0)01001_
+Step 1: 1(q1)1001_
+Step 2: 11(qaccept)001_
+----------------------------------------
+Input: 01111 - String accepted in 2 steps!
+Step 0: (q0)01111_
+Step 1: 1(q1)1111_
+Step 2: 11(qaccept)111_
+----------------------------------------
+Input: 00111 - Execution stopped after 4 steps. String rejected.
+----------------------------------------
+Input: 10101 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 11110 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 00001 - String accepted in 3 steps!
+Step 0: (q0)00001_
+Step 1: 1(q1)0001_
+Step 2: 1_(q2)001_
+Step 3: 1__(qaccept)01_
+----------------------------------------
+Input: 11010 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 01011 - String accepted in 2 steps!
+Step 0: (q0)01011_
+Step 1: 1(q1)1011_
+Step 2: 11(qaccept)011_
+----------------------------------------
+Input: 00110 - Execution stopped after 4 steps. String rejected.
+----------------------------------------
+Input: 11111 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 10011 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 11100 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 01100 - String accepted in 2 steps!
+Step 0: (q0)01100_
+Step 1: 1(q1)1100_
+Step 2: 11(qaccept)100_
+----------------------------------------
+Input: 10000 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 01000 - String accepted in 2 steps!
+Step 0: (q0)01000_
+Step 1: 1(q1)1000_
+Step 2: 11(qaccept)000_
+----------------------------------------
+Input: 00100 - Execution stopped after 4 steps. String rejected.
+----------------------------------------
+Input: 00010 - String accepted in 3 steps!
+Step 0: (q0)00010_
+Step 1: 1(q1)0010_
+Step 2: 1_(q2)010_
+Step 3: 1__(qaccept)10_
+----------------------------------------
+Input: 11111 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1111111 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0000000 - String accepted in 3 steps!
+Step 0: (q0)0000000_
+Step 1: 1(q1)000000_
+Step 2: 1_(q2)00000_
+Step 3: 1__(qaccept)0000_
+----------------------------------------
+Input: 1010101 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0101010 - String accepted in 2 steps!
+Step 0: (q0)0101010_
+Step 1: 1(q1)101010_
+Step 2: 11(qaccept)01010_
+----------------------------------------
+Input: 1111000 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0001111 - String accepted in 3 steps!
+Step 0: (q0)0001111_
+Step 1: 1(q1)001111_
+Step 2: 1_(q2)01111_
+Step 3: 1__(qaccept)1111_
+----------------------------------------
+Input: 1011010 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0110110 - String accepted in 2 steps!
+Step 0: (q0)0110110_
+Step 1: 1(q1)110110_
+Step 2: 11(qaccept)10110_
+----------------------------------------
+Input: 1101101 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0011001 - Execution stopped after 4 steps. String rejected.
+----------------------------------------
+Input: 1000101 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0111010 - String accepted in 2 steps!
+Step 0: (q0)0111010_
+Step 1: 1(q1)111010_
+Step 2: 11(qaccept)11010_
+----------------------------------------
+Input: 1100000 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0001010 - String accepted in 3 steps!
+Step 0: (q0)0001010_
+Step 1: 1(q1)001010_
+Step 2: 1_(q2)01010_
+Step 3: 1__(qaccept)1010_
+----------------------------------------
+Input: 1110111 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1001001 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1011101 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0100101 - String accepted in 2 steps!
+Step 0: (q0)0100101_
+Step 1: 1(q1)100101_
+Step 2: 11(qaccept)00101_
+----------------------------------------
+Input: 0111110 - String accepted in 2 steps!
+Step 0: (q0)0111110_
+Step 1: 1(q1)111110_
+Step 2: 11(qaccept)11110_
+----------------------------------------
+Input: 0011110 - Execution stopped after 4 steps. String rejected.
+----------------------------------------
+Input: 1111001 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1001110 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1110110 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0101011 - String accepted in 2 steps!
+Step 0: (q0)0101011_
+Step 1: 1(q1)101011_
+Step 2: 11(qaccept)01011_
+----------------------------------------
+Input: 0000100 - String accepted in 3 steps!
+Step 0: (q0)0000100_
+Step 1: 1(q1)000100_
+Step 2: 1_(q2)00100_
+Step 3: 1__(qaccept)0100_
+----------------------------------------
+Input: 1111110 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1010100 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0001101 - String accepted in 3 steps!
+Step 0: (q0)0001101_
+Step 1: 1(q1)001101_
+Step 2: 1_(q2)01101_
+Step 3: 1__(qaccept)1101_
+----------------------------------------
+Input: 1110001 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1011001 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1000111 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1100110 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0101001 - String accepted in 2 steps!
+Step 0: (q0)0101001_
+Step 1: 1(q1)101001_
+Step 2: 11(qaccept)01001_
+----------------------------------------
+Input: 0010111 - Execution stopped after 4 steps. String rejected.
+----------------------------------------
+Input: 1010011 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0111011 - String accepted in 2 steps!
+Step 0: (q0)0111011_
+Step 1: 1(q1)111011_
+Step 2: 11(qaccept)11011_
+----------------------------------------
+Input: 1001010 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0110000 - String accepted in 2 steps!
+Step 0: (q0)0110000_
+Step 1: 1(q1)110000_
+Step 2: 11(qaccept)10000_
+----------------------------------------
+Input: 1111001 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0001011 - String accepted in 3 steps!
+Step 0: (q0)0001011_
+Step 1: 1(q1)001011_
+Step 2: 1_(q2)01011_
+Step 3: 1__(qaccept)1011_
+----------------------------------------
+Input: 1110000 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0101101 - String accepted in 2 steps!
+Step 0: (q0)0101101_
+Step 1: 1(q1)101101_
+Step 2: 11(qaccept)01101_
+----------------------------------------
+Input: 1010101 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1000010 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0111100 - String accepted in 2 steps!
+Step 0: (q0)0111100_
+Step 1: 1(q1)111100_
+Step 2: 11(qaccept)11100_
+----------------------------------------
+Input: 0011000 - Execution stopped after 4 steps. String rejected.
+----------------------------------------
+Input: 1011100 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1100001 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0100100 - String accepted in 2 steps!
+Step 0: (q0)0100100_
+Step 1: 1(q1)100100_
+Step 2: 11(qaccept)00100_
+----------------------------------------
+Input: 1101011 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0010100 - Execution stopped after 4 steps. String rejected.
+----------------------------------------
+Input: 1110011 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1001000 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0000111 - String accepted in 3 steps!
+Step 0: (q0)0000111_
+Step 1: 1(q1)000111_
+Step 2: 1_(q2)00111_
+Step 3: 1__(qaccept)0111_
+----------------------------------------
+Input: 1110101 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 1000011 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0101100 - String accepted in 2 steps!
+Step 0: (q0)0101100_
+Step 1: 1(q1)101100_
+Step 2: 11(qaccept)01100_
+----------------------------------------
+Input: 0011101 - Execution stopped after 4 steps. String rejected.
+----------------------------------------
+Input: 0110111 - String accepted in 2 steps!
+Step 0: (q0)0110111_
+Step 1: 1(q1)110111_
+Step 2: 11(qaccept)10111_
+----------------------------------------
+Input: 1101001 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
+Input: 0001000 - String accepted in 3 steps!
+Step 0: (q0)0001000_
+Step 1: 1(q1)001000_
+Step 2: 1_(q2)01000_
+Step 3: 1__(qaccept)1000_
+----------------------------------------
+Input: 1010111 - Execution stopped after 2 steps. String rejected.
+----------------------------------------
